@@ -59,13 +59,13 @@
 :root {
     --color-black: #000000;
     --color-white: #ffffff;
-    /*--color-blue: blue;
+    --color-blue: blue;
     --color-salmon: #FA8072;
     --color-medium-violet-red: #C71585;
     --color--dark-orange: #FF8C00;
     --color-gold: #FFD700;
     --color-orchid: #DA70D6;
-    --color-chocolate: #D2691E;*/
+    --color-chocolate: #D2691E;
 }
 
 html, body {
@@ -83,4 +83,166 @@ body {
     font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
     font-size: 16px;
     background-color: var(--color-white);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#brand-pic {
+    position: absolute;
+    background-image: url(img/brand_desctope.png);
+    width: 1440px;
+    height: 755px;
+    z-index: 1;
+    margin: auto;
+}
+
+#header {
+    margin: auto;
+    margin-top: 21px;
+    z-index: 999;
+}
+
+#container-header {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    height: 86px;
+}
+
+#container-header div {
+   flex-grow: 1;
+   width: 315px;
+   height: 86px;
+}
+
+#container-header .header-facebook {
+    width: 72px;
+}
+
+#container-header .header_insagram {
+    width: 72px;
+    
+}
+
+.link-header a{
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 1.75em;
+    font-family: 'Pacifico', 'Times New Roman', Times, sans-serif;
+}
+
+.link-header .header-tel {
+    font-size: 30px;
+}
+
+.link-header p{
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 1.75em;
+    font-family: 'Pacifico', 'Times New Roman', Times, sans-serif;
+    width: 228px;
+    text-align: right;
+    margin: 0;
+}
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headline {
+    z-index: 99;
+    margin-left: 165px;
+    margin-top: 29px;
+    margin-bottom: 0;
+    width: 791px;
+    height: 367px;
+}
+
+.headline h1 {
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.headline h2 {
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 65x;
+    margin: 0;
+    margin-top: 27px;
+}
+
+.headline p {
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    width: 707px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32x;
+    margin: 0;
+    margin-top: 88px;
+    margin-bottom: 0;
+}
+
+.headline-button {
+    position: absolute;
+    text-decoration: none;
+    color: var(--color-white);
+    z-index: 99;
+    top: 542px;
+    margin-left: 165px;
+    width: 477px;
+    height: 80px;
+}
+
+.headline-button-container {
+    z-index: 99;
+    width: 477px;
+    height: 80px;
+    border-radius: 100px;
+    background-color: #2BBC28;
+}
+
+.headline-button-container p {
+    font-family: 'Pacifico', 'Times New Roman', Times, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 70x;
+    margin: 0;
+    text-align: center;
+}
+
+#choice {
+    width: 1110px;
+    height: 927px;
+    margin: auto;
+    margin-top: 382px;
+}
+
+#choice h3 {
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45x;
+    color: var(--color-black);
+    text-align: center;
+}
+
+.cookies-container {
+    margin-top: 41px;
+    display: grid;
+    width: 1110px;
+    height: 841px;
+    grid-template-columns: repeat(3, 340px);
+    column-gap: 44px;
 }
