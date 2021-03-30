@@ -66,6 +66,7 @@
     --color-gold: #FFD700;
     --color-orchid: #DA70D6;
     --color-chocolate: #D2691E;
+    --color-green: #2BBC28;
 }
 
 html, body {
@@ -83,6 +84,7 @@ body {
     font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
     font-size: 16px;
     background-color: var(--color-white);
+    scroll-behavior: smooth;
 }
 
 body {
@@ -135,6 +137,7 @@ body {
     color: var(--color-white);
     font-size: 1.75em;
     font-family: 'Pacifico', 'Times New Roman', Times, sans-serif;
+    letter-spacing: 2%;
 }
 
 .link-header .header-tel {
@@ -185,10 +188,10 @@ main {
 
 .headline p {
     font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
-    width: 707px;
-    font-size: 28px;
+    width: 741px;
+    font-size: 30px;
     font-weight: 400;
-    line-height: 32x;
+    line-height: 34x;
     margin: 0;
     margin-top: 88px;
     margin-bottom: 0;
@@ -199,7 +202,7 @@ main {
     text-decoration: none;
     color: var(--color-white);
     z-index: 99;
-    top: 542px;
+    top: 549px;
     margin-left: 165px;
     width: 477px;
     height: 80px;
@@ -220,6 +223,7 @@ main {
     line-height: 70x;
     margin: 0;
     text-align: center;
+    letter-spacing: 3%;
 }
 
 #choice {
@@ -245,4 +249,153 @@ main {
     height: 841px;
     grid-template-columns: repeat(3, 340px);
     column-gap: 44px;
+}
+
+.cookies {
+    position: relative;
+    display: inline-block;
+    width: 340px;
+    height: 400px;
+}
+
+.cookies .cookies-description {
+    display: none;
+    position: absolute;
+    width: 340px;
+    height: 400px;
+    background-color: rgba(51, 51, 51, 0.65);
+    bottom: 0px;
+}
+
+.cookies .cookies-description div {
+    width: 270px;
+    margin: auto;
+}
+
+.cookies .cookies-description h4{
+    text-align: left;
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.cookies .cookies-description p {
+    text-align: left;
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px; 
+}
+
+.cookies .cookies-description p span {
+    text-align: right;
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    padding-left: 22px; 
+}
+
+.cookies:hover .cookies-description {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#why-it-cool {
+    width: 1111px;
+    height: 358px;
+    margin: auto;
+    margin-top: 117px;
+}
+
+#why-it-cool h3 {
+    text-align: center;
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 2%;
+    color: var(--color-black);
+}
+
+#why-it-cool p {
+    text-align: left;
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 2%;
+    color: var(--color-black);
+}
+
+#delivery {
+    width: 1111px;
+    height: 555px;
+    margin: auto;
+    margin-top: 111px;
+}
+
+#delivery h3 {
+    text-align: center;
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 2%;
+    color: var(--color-black);
+}
+
+#delivery p {
+    text-align: left;
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 2%;
+    color: var(--color-black);
+}
+
+#delivery p span {
+    font-weight: 700;
+    color: var(--color-green);
+}
+
+#delivery ul {
+    text-align: center;
+    /*list-style-position: inside;
+    list-style-image: url(img/Ellipse\ 2.svg);*/
+    vertical-align: middle;
+}
+
+#delivery ul li {
+    font-weight: 700;
+    padding-left: 18px;
+    vertical-align: middle;
+    color: var(--color-green);
+}
+
+#delivery ul li img {
+    margin-right: 18px;
+    margin-bottom: 3px;
+}
+
+#delivery li span{
+    text-align: center;
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 2%;
+    color: var(--color-black);
+} 
+footer {
+    width: 1440px;
+    height: 708px;
+    background-color: #333333;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
 }
