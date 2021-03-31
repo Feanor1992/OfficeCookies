@@ -78,7 +78,7 @@ html, body {
 }
 
 body {
-    /*min-width: 1366px;*/
+    min-width: 1440px;
     width: 100%;
     color: var(--color-white);
     font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
