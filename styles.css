@@ -96,10 +96,11 @@ body {
 #brand-pic {
     position: absolute;
     background-image: url(img/brand_desctope.png);
-    width: 1440px;
+    width: 100%;
     height: 755px;
     z-index: 1;
-    margin: auto;
+    background-size: cover;
+    background-origin: border-box;
 }
 
 #header {
@@ -163,7 +164,7 @@ main {
 
 .headline {
     z-index: 99;
-    margin-left: 165px;
+    margin-left: 11.46%;
     margin-top: 29px;
     margin-bottom: 0;
     width: 791px;
@@ -203,7 +204,7 @@ main {
     color: var(--color-white);
     z-index: 99;
     top: 549px;
-    margin-left: 165px;
+    margin-left: 11.46%;
     width: 477px;
     height: 80px;
 }
@@ -249,19 +250,20 @@ main {
     height: 841px;
     grid-template-columns: repeat(3, 340px);
     column-gap: 44px;
+    row-gap: 44px;
 }
 
 .cookies {
     position: relative;
     display: inline-block;
-    width: 340px;
+    width: 342px;
     height: 400px;
 }
 
 .cookies .cookies-description {
     display: none;
     position: absolute;
-    width: 340px;
+    width: 342px;
     height: 400px;
     background-color: rgba(51, 51, 51, 0.65);
     bottom: 0px;
@@ -365,8 +367,6 @@ main {
 
 #delivery ul {
     text-align: center;
-    /*list-style-position: inside;
-    list-style-image: url(img/Ellipse\ 2.svg);*/
     vertical-align: middle;
 }
 
@@ -374,7 +374,6 @@ main {
     font-weight: 700;
     padding-left: 18px;
     vertical-align: middle;
-    color: var(--color-green);
 }
 
 #delivery ul li img {
@@ -391,11 +390,127 @@ main {
     letter-spacing: 2%;
     color: var(--color-black);
 } 
-footer {
-    width: 1440px;
+#footer {
+    width: 100%;
     height: 708px;
+    margin-top: 128px;
     background-color: #333333;
-    margin: auto;
+    background-size: cover;
+    background-origin: border-box;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: 58% 42%;
+    gap: 0;
+}
+
+.contacts-container {
+    width: 100%;
+    height: 100%;
+}
+
+.contacts-container div{
+    margin-left: 19.81%;
+}
+
+.contacts-container div:first-child {
+    margin-top: 51px;
+    width: 74.31%;
+    height: 380px;
+}
+
+.contacts-container div:first-child h2{
+    text-align: center;
+    font-family: 'Pacifico', 'Times New Roman', Times, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 87.8px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+}
+
+.contacts-container div:first-child .work-time {
+    text-align: left;
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.6px;
+    margin-top: 32px;
+    margin-bottom: 22px;
+}
+
+.contacts-container div:first-child .footer-tel {
+    text-decoration: none;
+    color: var(--color-white);
+    display: block;
+    text-align: center;
+    height: 63px;
+    font-family: 'Pacifico', 'Times New Roman', Times, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0.72px;
+    margin-top: 22px;
+}
+
+.contacts-container div:first-child .p-email {
+    text-align: left;
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.56px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.contacts-container div:first-child .p-email a {
+    color: var(--color-white);
+}
+
+.contacts-container div:first-child .p-telegram {
+    text-align: left;
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.56px;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.contacts-container div:first-child .p-telegram a {
+    color: var(--color-white);
+}
+
+.contacts-container .social-footer {
+    width: 255px;
+    height: 72px;
+    margin: auto;
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts-container .trademark {
+    width: 444px;
+    height: 41pz;
+    margin-top: 64px;
+}
+
+.contacts-container .trademark p {
+    text-align: left;
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: calc(18px * 0.02);
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.video-footer {
+    width: 608px;
+    width: 342px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
