@@ -228,9 +228,9 @@ main {
 
 #choice {
     width: 1110px;
-    height: 927px;
+    height: 931px;
     margin: auto;
-    margin-top: 382px;
+    margin-top: 357px;
 }
 
 #choice h3 {
@@ -240,6 +240,7 @@ main {
     line-height: 45x;
     color: var(--color-black);
     text-align: center;
+    margin-top: 0;
 }
 
 .cookies-container {
@@ -269,7 +270,7 @@ main {
 }
 
 .cookies .cookies-description div {
-    width: 270px;
+    width: 280px;
     height: 336px;
     margin: auto;
     margin-top: 32px;
@@ -309,11 +310,23 @@ main {
     display: block;
 }
 
+#price-description {
+    margin: auto;
+    margin-top: 36px;
+    width: 1110px;
+    height: 40px;
+    font-family: 'Philosopher', 'Times New Roman', Times, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--color-black);
+}
+
 #why-it-cool {
     width: 1111px;
-    height: 358px;
+    height: 400px;
     margin: auto;
-    margin-top: 117px;
+    margin-top: 88px;
 }
 
 #why-it-cool h3 {
@@ -324,6 +337,7 @@ main {
     line-height: 45px;
     letter-spacing: 2%;
     color: var(--color-black);
+    margin-top: 0;
 }
 
 #why-it-cool p {
@@ -338,9 +352,9 @@ main {
 
 #delivery {
     width: 1111px;
-    height: 555px;
+    height: 565px;
     margin: auto;
-    margin-top: 111px;
+    margin-top: 86px;
 }
 
 #delivery h3 {
@@ -351,6 +365,7 @@ main {
     line-height: 45px;
     letter-spacing: 2%;
     color: var(--color-black);
+    margin-top: 0;
 }
 
 #delivery p {
@@ -396,7 +411,7 @@ main {
 #footer {
     width: 100%;
     height: 708px;
-    margin-top: 128px;
+    margin-top: 102px;
     background-color: #333333;
     background-size: cover;
     background-origin: border-box;
@@ -516,6 +531,334 @@ main {
     height: 342px;
     margin-top: 50px;
     margin-left: 50px;
+}
+
+@media (min-width: 260px) and (max-width: 374px) {
+    body {
+        min-width: 260px;
+        max-width: 374px;
+    }
+
+    #brand-pic {
+        background-image: url(img/brand_mobile.png);
+        min-width: 260px;
+        max-width: 374px;
+        width: 100%;
+        height: 663px;
+    }
+
+    header {
+        min-width: 260px;
+        max-width: 374px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #container-header {
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        width: 343px;
+        height: 56px;
+        margin: auto;
+    }
+
+    #container-header .header-facebook {
+        width: 56px;
+        height: 56px;
+        margin-right: 25px;
+        margin-left: 5%;
+    }
+    
+    #container-header .header_insagram {
+        width: 56px; 
+        height: 56px; 
+    }
+
+    #container-header .header-facebook a img,
+    #container-header .header_insagram a img{
+        width: 56px;
+        height: 56px;
+    }
+
+    #container-header .link-header-mobile {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    #container-header .link-header-mobile {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    .link-header .header-tel {
+        font-size: 20px;
+        line-height: 39px;
+        letter-spacing: 0.4px;
+        text-align: right;
+        margin-bottom: 0;
+        margin-left: 30px;
+    }
+
+    .link-header p{
+        text-align: center;
+        font-size: 18px;
+        line-height: 35px;
+        letter-spacing: 0.36px;
+        vertical-align: text-top;
+    }
+
+    .headline {
+        margin: auto;
+        margin-top: 63px;
+        margin-bottom: 0;
+        width: 343px;
+        height: 315px;
+    }
+
+    .headline h1 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 45px;
+    }
+    
+    .headline h2 {
+        width: 265px;
+        font-size: 32px;
+        line-height: 36x;
+        margin-top: 21px;
+        letter-spacing: 0.64px;
+    }
+    
+    .headline p {
+        width: 343px;
+        font-size: 20px;
+        line-height: 22.4x;
+        margin: 0;
+        margin-top: 82px;
+        margin-bottom: 0;
+    }
+
+    .headline-button {
+        top: 500px;
+        margin: auto;
+        left: 4.3%;
+        width: 260px;
+        height: 60px;
+    }
+    
+    .headline-button-container {
+        width: 260px;
+        height: 60px;
+        margin: auto;
+    }
+    
+    .headline-button-container p {
+        font-size: 20px;
+        line-height: 53px;
+        letter-spacing: 0.9px;
+        vertical-align: bottom;
+    }
+
+    main {
+        min-width: 260px;
+        max-width: 374px;
+    }
+
+    #choice {
+        width: 343px;
+        height: 2558px;
+        margin: auto;
+        margin-top: 260px;
+    }
+    
+    #choice h3 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0.64px;
+        margin-bottom: 16px;
+    }
+    
+    .cookies-container {
+        margin-top: 41px;
+        display: grid;
+        width: 343px;
+        height: 2480px;
+        grid-template-columns: repeat(1, 343px);
+        row-gap: 16px;
+    }
+
+    #price-description {
+        margin-top: 9px;
+        width: 343px;
+        height: 64px;
+        font-size: 14px;
+        line-height: 15.68px;
+    }
+
+    #why-it-cool {
+        width: 343px;
+        height: 689px;
+        margin: auto;
+        margin-top: 48px;
+        content-visibility: auto;
+    }
+    
+    #why-it-cool h3 {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 0.64px;
+    }
+    
+    #why-it-cool p {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.36px;
+    }
+
+    #delivery {
+        width: 358px;
+        height: 743px;
+        margin: auto;
+        margin-top: 48px;
+        content-visibility: auto;
+    }
+    
+    #delivery h3 {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 0.64px;
+    }
+    
+    #delivery p {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.36px;
+    }
+    
+    #delivery ul {
+        text-align: center;
+        vertical-align: middle;
+        padding: 0;
+    }
+    
+    #delivery ul li {
+        font-weight: 700;
+        padding: 0;
+        vertical-align: middle;
+    }
+    
+    #delivery ul li img {
+        margin-right: 18px;
+        margin-bottom: 3px;
+    }
+    
+    #delivery li span{
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: 0.44px;
+    }
+
+    #footer {
+        max-width: 374px;
+        width: 100%;
+        height: 1300px;
+        margin-top: 62px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40.48% 59.52%;
+        gap: 0;
+    }
+    
+    .contacts-container {
+        width: 343px;
+        height: 419px;
+        margin: auto;
+    }
+    
+    .contacts-container div{
+        margin: 0;
+    }
+    
+    .contacts-container div:first-child {
+        margin: auto;
+        width: 305px;
+        height: 345px;
+    }
+    
+    .contacts-container div:first-child h2{
+        text-align: center;
+        font-size: 32px;
+        line-height: 59px;
+        letter-spacing: 3.2px;
+        margin-bottom: 0;
+    }
+    
+    .contacts-container div:first-child .work-time {
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.4px;
+        margin-top: 23px;
+        margin-bottom: 9px;
+    }
+    
+    .contacts-container div:first-child .footer-tel {
+        text-decoration: none;
+        height: 49px;
+        font-size: 28px;
+        line-height: 49px;
+        letter-spacing: 0.56px;
+        margin-top: 9px;
+    }
+    
+    .contacts-container div:first-child .p-email {
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0.4px;
+        margin-top: 10px;
+    }
+    
+    .contacts-container div:first-child .p-telegram {
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0.4px;
+        margin-top: 4px;
+        margin-bottom: 0;
+    }
+    
+    .contacts-container .social-footer {
+        width: 193px;
+        height: 65px;
+        margin-top: 59px;
+    }
+    
+    .contacts-container .trademark {
+        position: absolute;
+        width: 343px;
+        height: 40px;
+        margin-top: 0;
+        top: 6175px;
+        left: 4.3%;
+    }
+    
+    .contacts-container .trademark p {
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: calc(14px * 0.02);
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+    
+    .video-footer {
+        width: 342px;
+        height: 608px;
+        margin: auto;
+        margin-top: 63px;
+    }
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
@@ -644,7 +987,7 @@ main {
 
     #choice {
         width: 343px;
-        height: 2532px;
+        height: 2558px;
         margin: auto;
         margin-top: 260px;
     }
@@ -666,11 +1009,20 @@ main {
         row-gap: 16px;
     }
 
+    #price-description {
+        margin-top: 9px;
+        width: 343px;
+        height: 64px;
+        font-size: 14px;
+        line-height: 15.68px;
+    }
+
     #why-it-cool {
         width: 343px;
-        height: 715px;
+        height: 689px;
         margin: auto;
-        margin-top: 50px;
+        margin-top: 48px;
+        content-visibility: auto;
     }
     
     #why-it-cool h3 {
@@ -687,9 +1039,10 @@ main {
 
     #delivery {
         width: 358px;
-        height: 775px;
+        height: 743px;
         margin: auto;
-        margin-top: 47px;
+        margin-top: 48px;
+        content-visibility: auto;
     }
     
     #delivery h3 {
@@ -741,6 +1094,7 @@ main {
         width: 343px;
         height: 419px;
         margin: auto;
+        margin-top: 0;
     }
     
     .contacts-container div{
@@ -804,7 +1158,7 @@ main {
         width: 343px;
         height: 40px;
         margin-top: 0;
-        top: 6135px;
+        top: 6175px;
         left: 4.3%;
     }
     
@@ -949,9 +1303,9 @@ main {
 
     #choice {
         width: 690px;
-        height: 1372px;
+        height: 1336px;
         margin: auto;
-        margin-top: 278px;
+        margin-top: 318px;
     }
     
     #choice h3 {
@@ -986,11 +1340,20 @@ main {
         bottom: 0px;
     }
 
+    #price-description {
+        margin-top: 23px;
+        width: 690px;
+        height: 32px;
+        font-size: 14px;
+        line-height: 15.68px;
+    }
+
     #why-it-cool {
         width: 690px;
         height: 437px;
         margin: auto;
-        margin-top: 81px;
+        margin-top: 77px;
+        content-visibility: auto;
     }
     
     #why-it-cool h3 {
@@ -1010,9 +1373,10 @@ main {
 
     #delivery {
         width: 690px;
-        height: 559px;
+        height: 529px;
         margin: auto;
         margin-top: 80px;
+        content-visibility: auto;
     }
     
     #delivery h3 {
@@ -1137,7 +1501,7 @@ main {
         width: 343px;
         height: 40px;
         margin-top: 0;
-        top: 4119px;
+        top: 4160px;
         left: 4.3%;
     }
     
